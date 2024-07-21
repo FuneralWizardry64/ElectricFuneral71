@@ -7,7 +7,7 @@ public class CadastroContas {
 	private Conta[] contas;
 	private int numeroDeContas;
 	
-	public CadastroContas(int numeroDeConta) {
+	public CadastroContas(int numeroDeContas) {
 		this.contas = new Conta[numeroDeContas];
 	}
 	public boolean adicionaConta(Conta conta) {
