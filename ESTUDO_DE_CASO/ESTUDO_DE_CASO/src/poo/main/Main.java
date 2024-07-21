@@ -13,7 +13,7 @@ public class Main {
 		CadastroContas c1= new CadastroContas(4);
 		
 		for(int i=0; i< cliente.length;i++) {
-			c1.adicionaConta(new Conta(cliente[i],123,1000.0));
+			c1.adicionaConta(new Conta(i+1,cliente[i],123,1000.0));
 			
 			
 		}
